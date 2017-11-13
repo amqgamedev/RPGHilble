@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/Modelo/Character.meta
 guid: 95efc964df5bfe44292b911b041bf02c
 folderAsset: yes
 timeCreated: 1510596657
+=======
+guid: 8dae6232dcc611d4190cbfb53e25e5bb
+folderAsset: yes
+timeCreated: 1510593677
+>>>>>>> 9d009dea4264112733c086c50c8c12ad35033690:Assets/Scripts/Controlador.meta
 licenseType: Free
 DefaultImporter:
   userData: 
