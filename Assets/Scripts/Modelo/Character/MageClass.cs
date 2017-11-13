@@ -7,9 +7,9 @@ public class MageClass : Character {
 	public MageClass(){
 		ClassName = "Mago";
 		ClassDescription = "Personaje de Gran Intelecto y habilidades";
-		Stamina = 8;
-		Endurance = 8;
+		Hp = 8;
 		Strength = 5;
 		Intellect = 25;
+		Speed = 1;
 	}
 }

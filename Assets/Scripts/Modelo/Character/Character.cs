@@ -9,11 +9,12 @@ public class Character  {
 	private string classDescription;
 
 	//STATS
-    private int stamina ;
-    private int endurance ;
+    private int hp ;
     private int strength ;
     private int intellect ;
+	private int speed;
 	
+	//Get Set
 	public string ClassName{
 		get{return className;}
 		set{className = value;}
@@ -24,16 +25,10 @@ public class Character  {
 		set{classDescription = value;}
 	}
 
-	public int Stamina{
-		get{return stamina;}
-		set{stamina = value;}
+	public int Hp{
+		get{return hp;}
+		set{hp = value;}
 	}
-
-	public int Endurance{
-		get{return endurance;}
-		set{endurance = value;}
-	}
-
 	public int Strength{
 		get{return strength;}
 		set{strength = value;}
@@ -42,6 +37,11 @@ public class Character  {
 	public int Intellect{
 		get{return intellect;}
 		set{intellect = value;}
+	}
+
+	public int Speed{
+		get{return speed;}
+		set{speed = value;}
 	}
 
 }
