@@ -10,7 +10,7 @@ public class EnemiesSpawn : MonoBehaviour {
 		
 		void Start()
 		{
-			InvokeRepeating("spawnEnemy",2f, 3f);												//Tiempo de spawn
+			InvokeRepeating("spawnEnemy",5f, 3f);												//Tiempo de spawn
 
 			for (int i = 0; i < 1; i++){
 				Instantiate(enemy, new Vector3(i * 1f,0,0), Quaternion.identity);				// Instancia 1 copia del prefab del enemigo
