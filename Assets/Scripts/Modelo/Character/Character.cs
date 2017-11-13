@@ -13,6 +13,7 @@ public class Character  {
     private int strength ;
     private int intellect ;
 	private int speed;
+	private int xp;
 	
 	//Get Set
 	public string ClassName{
@@ -41,6 +42,10 @@ public class Character  {
 
 	public int Speed{
 		get{return speed;}
+		set{speed = value;}
+	}
+	public int Xp{
+		get{return xp;}
 		set{speed = value;}
 	}
 

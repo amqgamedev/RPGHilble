@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EquipmentBase : StatItemBase { // hereda los stats de los items
 
-	public enum EquipmentTypes{
+	public enum EquipmentTypes{ // enum tipo de equipamiento
             HEAD,
             CHEST,
             LEGS,                    
@@ -13,7 +13,8 @@ public class EquipmentBase : StatItemBase { // hereda los stats de los items
  
         private EquipmentTypes equipmentType;
         private int spellEffectID;
- 
+        
+        // GET SET
         public EquipmentTypes EquipmentType{
                 get{return equipmentType;}
                 set{equipmentType = value;}
