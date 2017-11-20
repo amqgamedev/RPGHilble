@@ -7,35 +7,8 @@ public class CreateNewCharacter : MonoBehaviour{
 	private PlayerBase newPlayer;
 	private bool isMage;
 	private bool isWarrior;
-<<<<<<< HEAD
-
-	public void Mage(){
-
-		newPlayer.PlayerClass = new MageClass();
-
-		newPlayer.PlayerLevel = 1;
-			newPlayer.Hp = newPlayer.PlayerClass.Hp;
-			newPlayer.Strength = newPlayer.PlayerClass.Strength;
-			newPlayer.Intellect = newPlayer.PlayerClass.Intellect;
-			newPlayer.Speed = newPlayer.PlayerClass.Speed;
-
-			Debug.Log("Player Class =" + newPlayer.PlayerClass.ClassName);
-			Debug.Log("Player level =" + newPlayer.PlayerLevel);
-			Debug.Log("Player HP =" + newPlayer.Hp);
-			Debug.Log("Player Strength =" + newPlayer.Strength);
-			Debug.Log("Player Intellect =" + newPlayer.Intellect);
-			Debug.Log("Player Speed =" + newPlayer.Speed);
-
-	}
-
-	public void Warrior(){
-
-		newPlayer.PlayerClass = new WarriorClass();
-		
-		newPlayer.PlayerLevel = 1;
-=======
 	private string playerName = "Enter Name	";
-	// Use this for initialization
+
 	void Start () {
 		newPlayer = new PlayerBase();
 	}
@@ -45,7 +18,7 @@ public class CreateNewCharacter : MonoBehaviour{
 		
 	}
 
-	void OnGUI()
+	/*void OnGUI()
 	{
 		playerName =  GUILayout.TextArea(playerName, 15);
 		isMage = GUILayout.Toggle(isMage,"Mage Class");
@@ -57,7 +30,6 @@ public class CreateNewCharacter : MonoBehaviour{
 				newPlayer.PlayerClass = new WarriorClass();
 			}
 			newPlayer.PlayerLevel = 1;
->>>>>>> 4fd5f386b75c6fd0665e6dfff6b01ba10a9a02e1
 			newPlayer.Hp = newPlayer.PlayerClass.Hp;
 			newPlayer.Strength = newPlayer.PlayerClass.Strength;
 			newPlayer.Intellect = newPlayer.PlayerClass.Intellect;
@@ -71,7 +43,43 @@ public class CreateNewCharacter : MonoBehaviour{
 			Debug.Log("Player Intellect =" + newPlayer.Intellect);
 			Debug.Log("Player Speed =" + newPlayer.Speed);
 		
+		}	
+	}*/
+	public void Mage(){
+
+		newPlayer.PlayerClass = new MageClass();
+
+		newPlayer.PlayerLevel = 1;
+		newPlayer.Hp = newPlayer.PlayerClass.Hp;
+		newPlayer.Strength = newPlayer.PlayerClass.Strength;
+		newPlayer.Intellect = newPlayer.PlayerClass.Intellect;
+		newPlayer.Speed = newPlayer.PlayerClass.Speed;
+		newPlayer.PlayerName = playerName;
+		Debug.Log("Player Name =" + newPlayer.PlayerName);
+		Debug.Log("Player Class =" + newPlayer.PlayerClass.ClassName);
+		Debug.Log("Player level =" + newPlayer.PlayerLevel);
+		Debug.Log("Player HP =" + newPlayer.Hp);
+		Debug.Log("Player Strength =" + newPlayer.Strength);
+		Debug.Log("Player Intellect =" + newPlayer.Intellect);
+		Debug.Log("Player Speed =" + newPlayer.Speed);
+
 	}
 
+	public void Warrior(){
 
+		newPlayer.PlayerClass = new WarriorClass();
+		newPlayer.PlayerLevel = 1;
+		newPlayer.Hp = newPlayer.PlayerClass.Hp;
+		newPlayer.Strength = newPlayer.PlayerClass.Strength;
+		newPlayer.Intellect = newPlayer.PlayerClass.Intellect;
+		newPlayer.Speed = newPlayer.PlayerClass.Speed;
+		newPlayer.PlayerName = playerName;
+		Debug.Log("Player Name =" + newPlayer.PlayerName);
+		Debug.Log("Player Class =" + newPlayer.PlayerClass.ClassName);
+		Debug.Log("Player level =" + newPlayer.PlayerLevel);
+		Debug.Log("Player HP =" + newPlayer.Hp);
+		Debug.Log("Player Strength =" + newPlayer.Strength);
+		Debug.Log("Player Intellect =" + newPlayer.Intellect);
+		Debug.Log("Player Speed =" + newPlayer.Speed);
+	}
 }
