@@ -7,12 +7,29 @@ using UnityEngine.SceneManagement;
 
 public class ManagerUI  : MonoBehaviour {
 
-    public void LoadStart()
+    public void LoadSelection()
     {
 
         SceneManager.LoadScene("CharSelection");
 
     }
+
+     public void LoadMenu ()
+    {
+
+        SceneManager.LoadScene ("Menu");
+
+    }
+
+    public void LoadGame ()
+    {
+
+        SceneManager.LoadScene("Game");
+
+    }
+
+   
+    
 
     public void AppQuit()
     {
