@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour {
 
 	// ES DE PRUEBA //
 
-	public float speed;
+	private float speed = 10.0f;
 	private Rigidbody rbg;
 
 	void Start(){
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		float moveHorizontal = Input.GetAxis("Horizontal");
 		float moveVertical = Input.GetAxis("Vertical");
-		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
+		Vector3 movement = new Vector3 (moveHorizontal, moveVertical) * 5.0f;
 
 		rbg.AddForce (movement * speed);
 	}

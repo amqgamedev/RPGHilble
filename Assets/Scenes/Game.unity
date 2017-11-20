@@ -108,13 +108,18 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &966615775
+=======
+--- !u!1 &451944945
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 966615777}
   - component: {fileID: 966615776}
   m_Layer: 0
@@ -208,6 +213,13 @@ GameObject:
   - component: {fileID: 1997307262}
   - component: {fileID: 1997307261}
   - component: {fileID: 1997307260}
+=======
+  - component: {fileID: 451944950}
+  - component: {fileID: 451944949}
+  - component: {fileID: 451944948}
+  - component: {fileID: 451944947}
+  - component: {fileID: 451944946}
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -215,33 +227,59 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!81 &1997307260
+=======
+--- !u!81 &451944946
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1997307259}
   m_Enabled: 1
 --- !u!124 &1997307261
+=======
+  m_GameObject: {fileID: 451944945}
+  m_Enabled: 1
+--- !u!124 &451944947
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1997307259}
   m_Enabled: 1
 --- !u!92 &1997307262
+=======
+  m_GameObject: {fileID: 451944945}
+  m_Enabled: 1
+--- !u!92 &451944948
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1997307259}
   m_Enabled: 1
 --- !u!20 &1997307263
+=======
+  m_GameObject: {fileID: 451944945}
+  m_Enabled: 1
+--- !u!20 &451944949
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1997307259}
+=======
+  m_GameObject: {fileID: 451944945}
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -272,12 +310,20 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
+<<<<<<< HEAD
 --- !u!4 &1997307264
+=======
+--- !u!4 &451944950
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1997307259}
+=======
+  m_GameObject: {fileID: 451944945}
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}

@@ -5,11 +5,7 @@ using UnityEngine;
 public class PotionBase : StatItemBase { // hereda los stats de los items
 
 	 public enum PotionTypes{ // enum tipo de pociones
-                HEALTH,
-                STRENGTH,
-                INTELLIGENCE,
-                ENDURANCE
- 
+                HEALTH, 
         }
  
     private PotionTypes potionType;

@@ -6,8 +6,42 @@ using UnityEngine.UI;
 public class CreateNewCharacter : MonoBehaviour{
 
 	private PlayerBase newPlayer;
+<<<<<<< HEAD
 	
 	
+=======
+	private bool isMage;
+	private bool isWarrior;
+<<<<<<< HEAD
+	public void Mage(){
+
+		newPlayer.PlayerClass = new MageClass();
+
+		newPlayer.PlayerLevel = 1;
+			newPlayer.Hp = newPlayer.PlayerClass.Hp;
+			newPlayer.Strength = newPlayer.PlayerClass.Strength;
+			newPlayer.Intellect = newPlayer.PlayerClass.Intellect;
+			newPlayer.Speed = newPlayer.PlayerClass.Speed;
+
+			Debug.Log("Player Class =" + newPlayer.PlayerClass.ClassName);
+			Debug.Log("Player level =" + newPlayer.PlayerLevel);
+			Debug.Log("Player HP =" + newPlayer.Hp);
+			Debug.Log("Player Strength =" + newPlayer.Strength);
+			Debug.Log("Player Intellect =" + newPlayer.Intellect);
+			Debug.Log("Player Speed =" + newPlayer.Speed);
+
+	}
+
+	public void Warrior(){
+
+		newPlayer.PlayerClass = new WarriorClass();
+		
+		newPlayer.PlayerLevel = 1;
+	}
+=======
+>>>>>>> 639b7d459a28f02662c11c65dbaa8dd2ef42cbfb
+	private string playerName = "Enter Name	";
+>>>>>>> dbc4baaf77f3357b713e92a1e547383cee25a54f
 
 	void Start () {
 		newPlayer = new PlayerBase();
@@ -88,3 +122,4 @@ Debug.Log("Player Name =" + playername);
 
 
 }
+	}

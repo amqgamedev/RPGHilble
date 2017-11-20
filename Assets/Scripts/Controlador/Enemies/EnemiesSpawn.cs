@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemiesSpawn : MonoBehaviour {
 
 		public Transform enemy;																	//Prefab del enemigo
+		private int enemyCount;
+		public int maxEC;
 
 
 		
@@ -18,6 +20,13 @@ public class EnemiesSpawn : MonoBehaviour {
 		}
 
 		void spawnEnemy(){
+
+			enemyCount++;
+			if(enemyCount>=maxEC){
+				CancelInvoke("spawnEnemy");														// Para el spawn
+			}																					// Arreglar a que spawn se reactive hasta una cierta cantidad.
+
 			Transform instance = Instantiate(enemy);
+
 		}
 }
