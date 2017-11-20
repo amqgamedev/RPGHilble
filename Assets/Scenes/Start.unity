@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 4133157106340620, guid: 47f70acecc534084dadc7ee5785b68da, type: 2}
+  maxEC: 4
 --- !u!4 &966615777
 Transform:
   m_ObjectHideFlags: 0
@@ -147,7 +148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1613736986
 Prefab:
@@ -186,12 +187,32 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4427913610654374, guid: d5802fe2c00b6354da4c55c9d5d9a397, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 54377535769064520, guid: d5802fe2c00b6354da4c55c9d5d9a397,
         type: 2}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114340231825842648, guid: d5802fe2c00b6354da4c55c9d5d9a397,
+        type: 2}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114340231825842648, guid: d5802fe2c00b6354da4c55c9d5d9a397,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54377535769064520, guid: d5802fe2c00b6354da4c55c9d5d9a397,
+        type: 2}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54377535769064520, guid: d5802fe2c00b6354da4c55c9d5d9a397,
+        type: 2}
+      propertyPath: m_Drag
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5802fe2c00b6354da4c55c9d5d9a397, type: 2}
