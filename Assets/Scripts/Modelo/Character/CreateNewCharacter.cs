@@ -7,8 +7,6 @@ public class CreateNewCharacter : MonoBehaviour{
 	private PlayerBase newPlayer;
 	private bool isMage;
 	private bool isWarrior;
-<<<<<<< HEAD
-
 	public void Mage(){
 
 		newPlayer.PlayerClass = new MageClass();
@@ -33,7 +31,7 @@ public class CreateNewCharacter : MonoBehaviour{
 		newPlayer.PlayerClass = new WarriorClass();
 		
 		newPlayer.PlayerLevel = 1;
-=======
+	}
 	private string playerName = "Enter Name	";
 	// Use this for initialization
 	void Start () {
@@ -57,7 +55,6 @@ public class CreateNewCharacter : MonoBehaviour{
 				newPlayer.PlayerClass = new WarriorClass();
 			}
 			newPlayer.PlayerLevel = 1;
->>>>>>> 4fd5f386b75c6fd0665e6dfff6b01ba10a9a02e1
 			newPlayer.Hp = newPlayer.PlayerClass.Hp;
 			newPlayer.Strength = newPlayer.PlayerClass.Strength;
 			newPlayer.Intellect = newPlayer.PlayerClass.Intellect;
@@ -75,3 +72,4 @@ public class CreateNewCharacter : MonoBehaviour{
 
 
 }
+	}
