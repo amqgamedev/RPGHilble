@@ -10,7 +10,7 @@ public class ManagerUI  : MonoBehaviour {
     public void LoadStart()
     {
 
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("CharSelection");
 
     }
 
