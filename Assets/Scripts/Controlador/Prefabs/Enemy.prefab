@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4133157106340620}
   - component: {fileID: 33500211047146972}
   - component: {fileID: 23292509768769558}
-  - component: {fileID: 114382405775590520}
   - component: {fileID: 114880022722861526}
   - component: {fileID: 50188814291768014}
   - component: {fileID: 58509064261518990}
@@ -54,7 +53,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -70,7 +68,6 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -121,18 +118,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &114382405775590520
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1054947355704302}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60f1c3bea2f01fd4c9ed4b4efa91eee2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 4087392023190766, guid: e740a8618151dbc4f804d232002f86f1, type: 2}
 --- !u!114 &114880022722861526
 MonoBehaviour:
   m_ObjectHideFlags: 1

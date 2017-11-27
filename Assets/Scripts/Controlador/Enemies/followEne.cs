@@ -33,7 +33,7 @@
           
             if (hit.collider != null) {
                 if (hit.collider.CompareTag("Player")) {
-                  Debug.Log("++");
+                  Debug.Log("+.+");
                  transform.position += (targetDirection).normalized * speed * Time.deltaTime;
                 }
         

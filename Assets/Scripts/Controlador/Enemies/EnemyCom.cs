@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class EnemyCom : MonoBehaviour {
 
-	public Transform bullet;
+	public GameObject bullet;
+	private Transform bulletSpawn;
+	private float speed = 1f;
+
 	
 
-	// Use this for initialization
 	void Start () {
 		InvokeRepeating("BulletShot",3.0f,0f);
 		
@@ -18,15 +20,15 @@ public class EnemyCom : MonoBehaviour {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 		
-		transform.Translate(Vector2.right * Time.deltaTime);		//cambiar por seguir al target
 	}
 
 	void BulletShot(){
-		Transform instance = Instantiate(bullet);
+		GameObject instance = Instantiate(bullet);
+
+		
+		}
 	}
 
-}
