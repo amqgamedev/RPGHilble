@@ -7,11 +7,11 @@ public class PlayerController : MonoBehaviour {
 	// ES DE PRUEBA //
 
 	private float speed = 10.0f;
-	private Rigidbody rbg;
+	private Rigidbody2D rbg;
 
 	void Start(){
 
-		rbg = GetComponent<Rigidbody>();
+		rbg = GetComponent<Rigidbody2D>();
 
 	}
 
