@@ -1,0 +1,1348 @@
+fileFormatVersion: 2
+guid: ff00414d3eafd4f46b4243bbbd48a540
+timeCreated: 1512283953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Overworld_0
+    21300002: Overworld_2
+    21300004: Overworld_4
+    21300006: Overworld_5
+    21300008: Overworld_6
+    21300010: Overworld_9
+    21300012: Overworld_13
+    21300014: Overworld_15
+    21300016: Overworld_19
+    21300018: Overworld_21
+    21300020: Overworld_24
+    21300022: Overworld_26
+    21300024: Overworld_29
+    21300026: Overworld_33
+    21300028: Overworld_1
+    21300030: Overworld_3
+    21300032: Overworld_8
+    21300034: Overworld_16
+    21300036: Overworld_17
+    21300038: Overworld_20
+    21300040: Overworld_22
+    21300042: Overworld_23
+    21300044: Overworld_25
+    21300046: Overworld_28
+    21300048: Overworld_30
+    21300050: Overworld_31
+    21300052: Overworld_32
+    21300054: Overworld_34
+    21300056: Overworld_35
+    21300058: Overworld_36
+    21300060: Overworld_18
+    21300062: Overworld_37
+    21300064: Overworld_38
+    21300066: Overworld_39
+    21300068: Overworld_40
+    21300070: Overworld_41
+    21300072: Overworld_42
+    21300074: Overworld_43
+    21300076: Overworld_44
+    21300078: Overworld_45
+    21300080: Overworld_46
+    21300082: Overworld_47
+    21300084: Overworld_48
+    21300086: Overworld_49
+    21300088: Overworld_50
+    21300090: Overworld_51
+    21300092: Overworld_52
+    21300094: Overworld_53
+    21300096: Overworld_54
+    21300098: Overworld_55
+    21300100: Overworld_56
+    21300102: Overworld_57
+    21300104: Overworld_7
+    21300106: Overworld_10
+    21300108: Overworld_11
+    21300110: Overworld_12
+    21300112: Overworld_14
+    21300114: Overworld_58
+    21300116: Overworld_59
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Overworld_0
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 32
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 548
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 562
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 560
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 544
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 454
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_13
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 450
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_15
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 469
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_19
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 448
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 433
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_24
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_26
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 336
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_29
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 233
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_33
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 51
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 401
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 480
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 529
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 561
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 95
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 95
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 95
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_32
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 80
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_34
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_35
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 49
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_36
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 121
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 463
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 463
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 463
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 439
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 42
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_52
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 42
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 54
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_54
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 32
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_55
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 54
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_56
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_57
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 42
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_7
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 470
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 496
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 320
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 272
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 256
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Overworld_59
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -318, y: -158}
+      - {x: -320, y: -168}
+      - {x: -320, y: -288}
+      - {x: -275, y: -288}
+      - {x: -238, y: -207}
+      - {x: -238, y: -165}
+      - {x: -253, y: -158}
+    - - {x: -85, y: -150}
+      - {x: -142, y: -158}
+      - {x: -142, y: -144}
+      - {x: -144, y: -142}
+      - {x: -170, y: -142}
+      - {x: -168, y: -142}
+      - {x: -140, y: -129}
+      - {x: -141, y: -143}
+      - {x: -121, y: -154}
+      - {x: -110, y: -149}
+      - {x: -101, y: -141}
+      - {x: -78, y: -68}
+      - {x: -75, y: -30}
+      - {x: -16, y: 14}
+      - {x: -14, y: 16}
+      - {x: -5, y: 53}
+      - {x: 21, y: 83}
+      - {x: 18, y: 112}
+      - {x: 16, y: 114}
+      - {x: 30, y: 153}
+      - {x: 33, y: 156}
+      - {x: 33, y: 160}
+      - {x: 34, y: 155}
+      - {x: 37, y: 153}
+      - {x: 76, y: 153}
+      - {x: 78, y: 144}
+      - {x: 80, y: 142}
+      - {x: 89, y: 142}
+      - {x: 87, y: 142}
+      - {x: 79, y: 136}
+      - {x: 71, y: 148}
+      - {x: 31, y: 153}
+      - {x: 24, y: 85}
+      - {x: 27, y: 54}
+      - {x: 191, y: 95}
+      - {x: 178, y: 176}
+      - {x: 174, y: 186}
+      - {x: 177, y: 196}
+      - {x: 177, y: 203}
+      - {x: 175, y: 214}
+      - {x: 175, y: 218}
+      - {x: 175, y: 217}
+      - {x: 178, y: 199}
+      - {x: 177, y: 187}
+      - {x: 177, y: 179}
+      - {x: 183, y: 174}
+      - {x: 214, y: 171}
+      - {x: 235, y: 171}
+      - {x: 246, y: 186}
+      - {x: 240, y: 208}
+      - {x: 240, y: 213}
+      - {x: 240, y: 211}
+      - {x: 243, y: 206}
+      - {x: 284, y: 206}
+      - {x: 282, y: 206}
+      - {x: 271, y: 200}
+      - {x: 283, y: 175}
+      - {x: 296, y: 180}
+      - {x: 300, y: 184}
+      - {x: 300, y: 198}
+      - {x: 294, y: 207}
+      - {x: 296, y: 206}
+      - {x: 302, y: 205}
+      - {x: 302, y: 182}
+      - {x: 303, y: 179}
+      - {x: 320, y: 176}
+      - {x: 320, y: 226}
+      - {x: 314, y: 259}
+      - {x: 287, y: 288}
+      - {x: 248, y: 288}
+      - {x: 246, y: 286}
+      - {x: 242, y: 281}
+      - {x: 242, y: 279}
+      - {x: 243, y: 275}
+      - {x: 242, y: 271}
+      - {x: 242, y: 288}
+      - {x: -136, y: 288}
+      - {x: -143, y: 270}
+      - {x: -143, y: 235}
+      - {x: -144, y: 210}
+      - {x: -146, y: 208}
+      - {x: -152, y: 204}
+      - {x: -154, y: 205}
+      - {x: -148, y: 207}
+      - {x: -145, y: 210}
+      - {x: -144, y: 226}
+      - {x: -144, y: 270}
+      - {x: -152, y: 279}
+      - {x: -176, y: 288}
+      - {x: -195, y: 288}
+      - {x: -215, y: 278}
+      - {x: -222, y: 269}
+      - {x: -222, y: 267}
+      - {x: -226, y: 254}
+      - {x: -236, y: 265}
+      - {x: -243, y: 264}
+      - {x: -247, y: 263}
+      - {x: -242, y: 273}
+      - {x: -224, y: 266}
+      - {x: -219, y: 280}
+      - {x: -225, y: 288}
+      - {x: -271, y: 288}
+      - {x: -272, y: 283}
+      - {x: -272, y: 276}
+      - {x: -273, y: 281}
+      - {x: -277, y: 285}
+      - {x: -282, y: 285}
+      - {x: -287, y: 282}
+      - {x: -286, y: 282}
+      - {x: -293, y: 288}
+      - {x: -320, y: 288}
+      - {x: -320, y: 153}
+      - {x: -317, y: 152}
+      - {x: -316, y: 152}
+      - {x: -313, y: 155}
+      - {x: -313, y: 157}
+      - {x: -310, y: 158}
+      - {x: -315, y: 152}
+      - {x: -318, y: 151}
+      - {x: -320, y: 149}
+      - {x: -320, y: 93}
+      - {x: -291, y: 87}
+      - {x: -273, y: 94}
+      - {x: -271, y: 95}
+      - {x: -274, y: 92}
+      - {x: -274, y: 89}
+      - {x: -270, y: 85}
+      - {x: -268, y: 85}
+      - {x: -264, y: 89}
+      - {x: -264, y: 92}
+      - {x: -262, y: 88}
+      - {x: -263, y: 87}
+      - {x: -270, y: 84}
+      - {x: -312, y: 82}
+      - {x: -320, y: 77}
+      - {x: -320, y: -224}
+      - {x: -268, y: -267}
+      - {x: -75, y: -267}
+      - {x: -11, y: -258}
+      - {x: -9, y: -174}
+      - {x: -32, y: -150}
+      - {x: -68, y: -157}
+    - - {x: -152, y: -214}
+      - {x: -154, y: -217}
+      - {x: -154, y: -258}
+      - {x: -102, y: -258}
+      - {x: -102, y: -214}
+    - - {x: 72, y: -214}
+      - {x: 70, y: -218}
+      - {x: 70, y: -258}
+      - {x: 120, y: -258}
+      - {x: 122, y: -256}
+      - {x: 122, y: -227}
+      - {x: 119, y: -214}
+    - - {x: 55, y: -167}
+      - {x: -9, y: -167}
+      - {x: -9, y: -242}
+      - {x: 57, y: -242}
+      - {x: 57, y: -171}
+      - {x: 56, y: -170}
+    - - {x: -253, y: -158}
+      - {x: -253, y: -172}
+      - {x: -252, y: -175}
+      - {x: -246, y: -175}
+      - {x: -243, y: -171}
+      - {x: -243, y: -159}
+      - {x: -246, y: -158}
+    - - {x: 88, y: -71}
+      - {x: 87, y: -79}
+      - {x: 87, y: -169}
+      - {x: 151, y: -169}
+      - {x: 153, y: -168}
+      - {x: 153, y: -73}
+      - {x: 148, y: -71}
+    - - {x: 208, y: 34}
+      - {x: 206, y: 32}
+      - {x: 114, y: 20}
+      - {x: 112, y: 12}
+      - {x: 100, y: 17}
+      - {x: 22, y: 28}
+      - {x: -90, y: -39}
+      - {x: -98, y: -84}
+      - {x: -98, y: -158}
+      - {x: 83, y: -158}
+      - {x: 320, y: -36}
+      - {x: 320, y: 18}
+      - {x: 224, y: 34}
+    - - {x: -50, y: 2}
+      - {x: -50, y: -39}
+      - {x: -19, y: -63}
+      - {x: 8, y: -63}
+      - {x: 9, y: -60}
+      - {x: 9, y: -31}
+      - {x: -10, y: 2}
+    - - {x: -11, y: -26}
+      - {x: -9, y: -29}
+      - {x: 20, y: -29}
+      - {x: 27, y: -25}
+      - {x: 27, y: 11}
+      - {x: -6, y: 11}
+      - {x: -11, y: 5}
+    - - {x: -134, y: 9}
+      - {x: -137, y: 6}
+      - {x: -137, y: -22}
+      - {x: -135, y: -25}
+      - {x: -104, y: -25}
+      - {x: -103, y: -23}
+      - {x: -103, y: 8}
+      - {x: -107, y: 9}
+    - - {x: -83, y: 9}
+      - {x: -89, y: 4}
+      - {x: -89, y: -17}
+      - {x: -87, y: -25}
+      - {x: -64, y: -25}
+      - {x: -55, y: -23}
+      - {x: -55, y: 3}
+      - {x: -58, y: 9}
+    - - {x: 157, y: 51}
+      - {x: 158, y: 56}
+      - {x: 158, y: 58}
+      - {x: 158, y: 44}
+      - {x: 177, y: 45}
+      - {x: 178, y: 46}
+      - {x: 178, y: 94}
+      - {x: 71, y: 94}
+      - {x: 14, y: 66}
+      - {x: 14, y: 48}
+      - {x: 15, y: 45}
+      - {x: 48, y: 46}
+      - {x: 50, y: 48}
+      - {x: 46, y: 20}
+      - {x: 51, y: 18}
+      - {x: 157, y: 18}
+      - {x: 161, y: 20}
+      - {x: 158, y: 42}
+    - - {x: 198, y: 135}
+      - {x: 190, y: 127}
+      - {x: 190, y: 46}
+      - {x: 242, y: 46}
+      - {x: 242, y: 132}
+      - {x: 230, y: 135}
+    - - {x: 255, y: 122}
+      - {x: 246, y: 116}
+      - {x: 243, y: 77}
+      - {x: 243, y: 46}
+      - {x: 271, y: 46}
+      - {x: 282, y: 75}
+      - {x: 282, y: 112}
+      - {x: 278, y: 122}
+    - - {x: 5, y: 87}
+      - {x: -22, y: 87}
+      - {x: -23, y: 83}
+      - {x: -23, y: 57}
+      - {x: -22, y: 55}
+      - {x: -2, y: 55}
+      - {x: 4, y: 56}
+      - {x: 7, y: 60}
+      - {x: 7, y: 83}
+    - - {x: -69, y: 105}
+      - {x: -73, y: 102}
+      - {x: -73, y: 71}
+      - {x: -41, y: 71}
+      - {x: -40, y: 74}
+      - {x: -40, y: 104}
+      - {x: -46, y: 105}
+    - - {x: -314, y: 94}
+      - {x: -319, y: 90}
+      - {x: -319, y: 83}
+      - {x: -313, y: 78}
+      - {x: -310, y: 78}
+      - {x: -306, y: 90}
+      - {x: -310, y: 94}
+    - - {x: -303, y: 91}
+      - {x: -306, y: 90}
+      - {x: -306, y: 86}
+      - {x: -301, y: 80}
+      - {x: -300, y: 80}
+      - {x: -295, y: 85}
+      - {x: -295, y: 88}
+      - {x: -296, y: 91}
+    - - {x: -275, y: 92}
+      - {x: -282, y: 92}
+      - {x: -285, y: 91}
+      - {x: -286, y: 87}
+      - {x: -286, y: 82}
+      - {x: -283, y: 81}
+      - {x: -279, y: 81}
+      - {x: -276, y: 82}
+      - {x: -274, y: 87}
+      - {x: -274, y: 91}
+    - - {x: 244, y: 178}
+      - {x: 242, y: 166}
+      - {x: 242, y: 126}
+      - {x: 272, y: 126}
+      - {x: 272, y: 151}
+      - {x: 269, y: 178}
+    - - {x: 302, y: 173}
+      - {x: 299, y: 178}
+      - {x: 276, y: 178}
+      - {x: 270, y: 154}
+      - {x: 270, y: 140}
+      - {x: 274, y: 130}
+      - {x: 287, y: 130}
+      - {x: 320, y: 149}
+      - {x: 320, y: 175}
+      - {x: 303, y: 175}
+    - - {x: 176, y: 162}
+      - {x: 175, y: 160}
+      - {x: 175, y: 149}
+      - {x: 176, y: 143}
+      - {x: 226, y: 143}
+      - {x: 226, y: 160}
+      - {x: 225, y: 162}
+    - - {x: -137, y: 172}
+      - {x: -142, y: 162}
+      - {x: -142, y: 152}
+      - {x: -137, y: 149}
+      - {x: -118, y: 149}
+      - {x: -111, y: 153}
+      - {x: -111, y: 159}
+      - {x: -120, y: 172}
+    - - {x: -231, y: 187}
+      - {x: -231, y: 152}
+      - {x: -229, y: 150}
+      - {x: -201, y: 150}
+      - {x: -201, y: 187}
+    - - {x: -186, y: 185}
+      - {x: -186, y: 160}
+      - {x: -183, y: 155}
+      - {x: -150, y: 155}
+      - {x: -150, y: 185}
+    - - {x: 247, y: 207}
+      - {x: 245, y: 203}
+      - {x: 245, y: 185}
+      - {x: 250, y: 179}
+      - {x: 265, y: 179}
+      - {x: 269, y: 180}
+      - {x: 269, y: 194}
+      - {x: 268, y: 198}
+      - {x: 263, y: 207}
+    - - {x: 98, y: 268}
+      - {x: 98, y: 227}
+      - {x: 103, y: 226}
+      - {x: 106, y: 226}
+      - {x: 109, y: 228}
+      - {x: 109, y: 267}
+      - {x: 107, y: 268}
+    - - {x: 128, y: 239}
+      - {x: 128, y: 231}
+      - {x: 133, y: 229}
+      - {x: 137, y: 229}
+      - {x: 139, y: 230}
+      - {x: 140, y: 235}
+      - {x: 138, y: 239}
+    - - {x: 285, y: 264}
+      - {x: 280, y: 262}
+      - {x: 280, y: 258}
+      - {x: 287, y: 254}
+      - {x: 294, y: 254}
+      - {x: 295, y: 256}
+      - {x: 295, y: 260}
+      - {x: 290, y: 264}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

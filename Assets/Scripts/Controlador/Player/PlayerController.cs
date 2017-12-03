@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		float moveHorizontal = Input.GetAxis("Horizontal");								
 		float moveVertical = Input.GetAxis("Vertical");
-		Vector3 movement = new Vector3 (moveHorizontal, moveVertical) * 5.0f;
+		Vector3 movement = new Vector3 (moveHorizontal, moveVertical) * 3.0f;
 
 		rbg.AddForce (movement * speed);
 	}
@@ -50,19 +50,22 @@ public class PlayerController : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		PlayerController takedamage = other.gameObject.GetComponent<PlayerController>();
-		rbg = other.gameObject.GetComponent<Rigidbody2D>();
-		if (rbg != null) {
-			if(other.transform.CompareTag("Enemy")){
+		//rbg = other.gameObject.GetComponent<Rigidbody2D>();
+		if (rbg != null) 
+		{
+			if(other.transform.CompareTag("Enemy"))
+			{
 				takedamage.health -= Random.Range(3f, 5f);
 
 				otherposition = other.transform.position;
 					Debug.Log("Tocandose");
 
 
-		if(health <= 0){
-			Debug.Log(this.name + "ddddestroy");
-			Destroy(this.gameObject);
-			}
+					if(health <= 0)	
+				{
+					Debug.Log(this.name + "ddddestroy");
+					Destroy(this.gameObject);
+				}
 
 			}
 		}
