@@ -12,20 +12,26 @@ public class CharacterSelect : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		
+		index = PlayerPrefs.GetInt("CharacterSelected");
+
 		characterList = new GameObject[transform.childCount];
 
 		//se ponen en el array los modelos
 		for (int i = 0; i < transform.childCount; i++)
 			characterList[i] = transform.GetChild(i).gameObject;
 		
+
 		//se apagan los renderer
 		foreach(GameObject pj in characterList)
 			pj.SetActive(false);
 
-		if (characterList[0])
-			characterList[0].SetActive(true);
+
+		//se prende el personaje seleccionado
+		if (characterList[index])
+			characterList[index].SetActive(true);
 
 	}
 
@@ -54,6 +60,7 @@ public class CharacterSelect : MonoBehaviour {
 
 	public void Confirm()
 	{
+		PlayerPrefs.SetInt("CharacterSelected" , index);
 		SceneManager.LoadScene("PlayerGame");
 	}
 
