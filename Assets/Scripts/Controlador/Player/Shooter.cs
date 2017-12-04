@@ -7,6 +7,7 @@ public class Shooter : MonoBehaviour {
 	
 
 	private Vector3 inputDirection;
+	public ShootButt BShoot;
 	
 	[SerializeField]private Rigidbody2D rbg;
 	public GameObject bulletPref;				//Prefab del disparo de rango

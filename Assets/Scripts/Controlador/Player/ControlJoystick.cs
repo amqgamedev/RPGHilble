@@ -9,6 +9,7 @@ public class ControlJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 	private Image Ibackground;
 	private Image Ijoystick;
 	private Vector3 inputVector;
+	
 
 
 	void Start(){
@@ -18,10 +19,14 @@ public class ControlJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 
 	public virtual void OnDrag(PointerEventData eventData){
 
+		
+
 		Vector2 pos;
 		if(RectTransformUtility.ScreenPointToLocalPointInRectangle(Ibackground.rectTransform, eventData.position, eventData.pressEventCamera, out pos)){ // Funciona el joystick dentro del limite del bck
 
 		}
+
+
 	//	Debug.Log("Probando");
 		pos.x = (pos.x / Ibackground.rectTransform.sizeDelta.x);
 		pos.y = (pos.y / Ibackground.rectTransform.sizeDelta.y);
@@ -72,9 +77,5 @@ public class ControlJoystick : MonoBehaviour, IDragHandler, IPointerUpHandler, I
 		
 
 	}
-
-
-
-
 
 }

@@ -16,12 +16,14 @@ public class BulletScript : MonoBehaviour {
 		else if(col.CompareTag("Player")){
 
 			if(isEnemy == true){
-//				Destroy(col.gameObject);
+//				 gameObject.GetComponent<CreateNewCharacter>().hp;
+//				if(hp <= 0){
+//				Debug.Log(this.name + "ddddestroy");
+//				Destroy(this.gameObject);
+				}
+
 				Debug.Log("hacerle danio al player");
 			}
 		}
 	}
 
-
-
-}
