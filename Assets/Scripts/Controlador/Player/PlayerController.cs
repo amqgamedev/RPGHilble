@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 	// ES DE PRUEBA //
+
 	public Vector3 inputDirection;
 	private float speed = 10.0f;
 	[SerializeField]private Rigidbody2D rbg;
@@ -46,6 +47,4 @@ public class PlayerController : MonoBehaviour {
 		Destroy(bullet, 3.0f);																								// tiempo de vida
 	}
 
-
-	
 }
