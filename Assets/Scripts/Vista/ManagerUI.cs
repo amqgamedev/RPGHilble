@@ -24,7 +24,7 @@ public class ManagerUI  : MonoBehaviour {
     public void LoadGame ()
     {
 
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("PlayerGame");
 
     }
 

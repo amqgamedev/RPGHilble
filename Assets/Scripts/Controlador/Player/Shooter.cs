@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour {
 
-	// ES DE PRUEBA //
+	
 
 	private Vector3 inputDirection;
 	
@@ -34,8 +34,9 @@ public class Shooter : MonoBehaviour {
 
 	void Fire(){
 
-		GameObject bullet = Instantiate(bulletPref,bulletSpawn.position, bulletSpawn.rotation) as GameObject;				//	instancia el prefab de bullet
-		bullet.GetComponent<Rigidbody2D>().AddForce(inputDirection.normalized * 5.0f, ForceMode2D.Impulse);					//  le da "movimiento"
+		GameObject bullet = Instantiate(bulletPref,bulletSpawn.position, bulletSpawn.rotation) as GameObject;								//	instancia el prefab de bullet
+		bullet.GetComponent<Rigidbody2D>().AddForce(GetComponent<PlayerMotor>().dir.normalized * 5.0f, ForceMode2D.Impulse);				//  le da "movimiento"
+		Debug.Log("Disparando");	
 		
 
 		Destroy(bullet, 3.0f);																								// tiempo de vida

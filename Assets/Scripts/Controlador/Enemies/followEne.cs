@@ -4,10 +4,9 @@
  
  public class followEne : MonoBehaviour {
      
-        public Transform target;            //fija un objetivo
+        private Transform target;            //fija un objetivo
         public float speed = 5f;             //velocidad
         private float range = 5f;           // rango del raycast
-        public float health = 20;
         private Vector3 targetDirection;
 
 
