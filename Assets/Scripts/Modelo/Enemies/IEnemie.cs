@@ -5,7 +5,7 @@ using UnityEngine;
 public interface IEnemy
 {
 	int ID { get; set; } // id enemigo
-    int Experience { get; set; }// experiencia que recibiar
+    int Experience { get; set; }// experiencia que recibiras
     void Die(); // funcion de morir
     void TakeDamage(int amount); // el daño que recibira
     void PerformAttack(); // hace un ataque

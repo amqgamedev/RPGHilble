@@ -20,9 +20,5 @@ public class EquipmentBase : StatItemBase { // hereda los stats de los items
                 set{equipmentType = value;}
  
         }
-        public int SpellEffectID{
-                get{return spellEffectID;}
-                set{spellEffectID = value;}
-               
-        }
+        
 }

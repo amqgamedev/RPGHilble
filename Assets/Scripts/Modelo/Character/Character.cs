@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Character  {
 
+	//script para las clases, ya sea mago o guerrero
+	private string className; //nombre de la clase
+	private string classDescription; // descripcion de la clase
 
-	private string className;
-	private string classDescription;
-
+	
 	//STATS
-    private int hp ;
+    private int hp ; 
     private int strength ;
     private int intellect ;
 	private int speed;

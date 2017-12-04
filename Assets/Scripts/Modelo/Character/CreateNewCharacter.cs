@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class CreateNewCharacter : MonoBehaviour{
-
+	// script para crear personaje, da las caracteristicas y la clase al pj
 	private PlayerBase newPlayer;
-
+	
+	//booleanos para determinar si es guerrero o mago
 	private bool isMage;
 	private bool isWarrior;
 
 	private string playerName = "Enter Name	";
 	void Start () {
-		newPlayer = new PlayerBase();
+		newPlayer = new PlayerBase(); // creamos un nuevo player llamando al script player base
 	}
 	
 
@@ -20,7 +21,7 @@ public class CreateNewCharacter : MonoBehaviour{
 	
 
 	public void Mage(){
-
+		
 		newPlayer.PlayerClass = new MageClass();
 
 		newPlayer.PlayerLevel = 1;
