@@ -20,7 +20,7 @@ public class CreatePotion : MonoBehaviour {
 		newPotion.ItemDescription = "Heals you";		
 		// id del weapon
 
-		newPotion.ItemID = Random.Range(1,10);
+		newPotion.ItemValue = Random.Range(1,10);
 		// stats del arma
 
 		newPotion.Hp = 10;

@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBase {
-
+public class PlayerBase : MonoBehaviour {
+	// script base para crear al pj
 	private string playerName;
 	private int playerLevel;
 
@@ -15,7 +15,26 @@ public class PlayerBase {
     private int intellect ;
 	private int speed;
 	
-	
+	private List<ItemBase> _inventory  = new List<ItemBase>();
+	void  Start() {
+		for (int i = 0; i < 10; i++)
+		{
+			ItemBase _item  = new ItemBase();
+			_inventory.Add(_item);
+			Debug.Log(_inventory[i].ItemName);
+			Debug.Log(_inventory[i].ItemDescription);
+			Debug.Log(_inventory[i].ItemValue);
+			Debug.Log(_inventory[i].ItemType);
+			Debug.Log(_inventory[i].ItemStats[0].Strength);
+			Debug.Log(_inventory[i].ItemStats[0].Intelligence);
+			Debug.Log(_inventory[i].ItemStats[0].Endurance);
+			Debug.Log(_inventory[i].ItemStats[0].Hp);
+			
+		}
+	}
+	public List<ItemBase> returnPlayerInventory(){ //se encarga de dar la nueva lista de inventario
+		return _inventory;
+	}
 	//Get Set
 	public string PlayerName{
 		get{return playerName;}

@@ -21,10 +21,10 @@ public class ManagerUI  : MonoBehaviour {
 
     }
 
-    public void LoadPlayerGame ()
+    public void LoadGame ()
     {
 
-        SceneManager.LoadScene("PlayerGame");
+        SceneManager.LoadScene("Game");
 
     }
 

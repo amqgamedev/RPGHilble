@@ -26,7 +26,7 @@ public class CreateWeapon : MonoBehaviour {
 		newWeapon.ItemDescription = "New Sword";		
 		// id del weapon
 
-		newWeapon.ItemID = Random.Range(1,10);
+		newWeapon.ItemValue = Random.Range(1,10);
 		// stats del arma
 
 		newWeapon.Endurance = Random.Range(5,10);
@@ -35,7 +35,7 @@ public class CreateWeapon : MonoBehaviour {
 		
 		Debug.Log(newWeapon.ItemName);
 		Debug.Log(newWeapon.ItemDescription);
-		Debug.Log(newWeapon.ItemID.ToString());	
+		Debug.Log(newWeapon.ItemValue.ToString());	
 		Debug.Log(newWeapon.Endurance.ToString());	
 		Debug.Log(newWeapon.Strength.ToString());
 		Debug.Log(newWeapon.Intelligence.ToString());
@@ -52,7 +52,7 @@ public class CreateWeapon : MonoBehaviour {
 		newWeapon.ItemDescription = "New Staff";		
 		// id del weapon
 
-		newWeapon.ItemID = Random.Range(1,10);
+		newWeapon.ItemValue = Random.Range(1,10);
 		// stats del arma
 
 		newWeapon.Endurance = Random.Range(5,10);
@@ -61,7 +61,7 @@ public class CreateWeapon : MonoBehaviour {
 
 		Debug.Log(newWeapon.ItemName);
 		Debug.Log(newWeapon.ItemDescription);
-		Debug.Log(newWeapon.ItemID.ToString());	
+		Debug.Log(newWeapon.ItemValue.ToString());	
 		Debug.Log(newWeapon.Endurance.ToString());	
 		Debug.Log(newWeapon.Strength.ToString());
 		Debug.Log(newWeapon.Intelligence.ToString());

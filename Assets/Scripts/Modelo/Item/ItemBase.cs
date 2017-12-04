@@ -6,17 +6,25 @@ public class ItemBase{
        
         private string itemName; //nombre del item
         private string itemDescription; // descripcion del item
-        private int itemID;//ID del item
+        private int itemValue;//valor del item
+        private List<StatItemBase> itemStats;
+        public ItemBase()
+        {
+                ItemName = "Item" + Random.Range(0,10);
+                ItemDescription = ItemName + "is a Cool Stuff";
+                ItemValue = Random.Range(10,100);
+                ItemType = ItemTypes.EQUIPMENT;
+                ItemStats = new List<StatItemBase>();
+        }
         public enum ItemTypes{ // enum de tipo de items
                 EQUIPMENT,
                 WEAPON,
-                POTION,
-                CHEST
+                POTION
         }
         private ItemTypes itemType;
-       
-	   // get set de las variables
-        public string ItemName{
+
+    // get set de las variables
+    public string ItemName{
                 get{return itemName;}
                 set{itemName = value;}
         }
@@ -24,12 +32,16 @@ public class ItemBase{
                 get{return itemDescription;}
                 set{itemDescription = value;}
         }
-        public int ItemID{
-                get{return itemID;}
-                set{itemID = value;}
+        public int ItemValue{
+                get{return ItemValue;}
+                set{ItemValue = value;}
         }
         public ItemTypes ItemType{
                 get{return itemType;}
                 set{itemType = value;}
+        }
+        public List<StatItemBase> ItemStats{
+                get{return itemStats;}
+                set{itemStats = value;}
         }
 }
