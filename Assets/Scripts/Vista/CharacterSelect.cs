@@ -61,7 +61,7 @@ public class CharacterSelect : MonoBehaviour {
 	public void Confirm()
 	{
 		PlayerPrefs.SetInt("CharacterSelected" , index);
-		SceneManager.LoadScene("FinalGame");
+		SceneManager.LoadScene("PlayerGame");
 	}
 
 }
