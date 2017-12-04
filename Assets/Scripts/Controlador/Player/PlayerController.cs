@@ -5,16 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 	// ES DE PRUEBA //
-<<<<<<< HEAD
 	public Vector3 inputDirection;
 	private float speed = 10.0f;
 	[SerializeField]private Rigidbody2D rbg;
-=======
-
-	private float speed = 5.0f;
-	public float health = 10.0f;
-	private Rigidbody2D rbg;
->>>>>>> 3bc967559956a9c053fa45c391543feb9aa53885
 	public GameObject bulletPref;				//Prefab del disparo de rango
 	public Transform bulletSpawn;				//Desde donde va a disparar
 	
@@ -54,31 +47,5 @@ public class PlayerController : MonoBehaviour {
 	}
 
 
-<<<<<<< HEAD
 	
-=======
-	void OnCollisionEnter2D(Collision2D other)
-	{
-		PlayerController takedamage = other.gameObject.GetComponent<PlayerController>();
-		//rbg = other.gameObject.GetComponent<Rigidbody2D>();
-		if (rbg != null) 
-		{
-			if(other.transform.CompareTag("Enemy"))
-			{
-				takedamage.health -= Random.Range(3f, 5f);
-
-				otherposition = other.transform.position;
-					Debug.Log("Tocandose");
-
-
-					if(health <= 0)	
-				{
-					Debug.Log(this.name + "ddddestroy");
-					Destroy(this.gameObject);
-				}
-
-			}
-		}
-	}
->>>>>>> 3bc967559956a9c053fa45c391543feb9aa53885
 }
