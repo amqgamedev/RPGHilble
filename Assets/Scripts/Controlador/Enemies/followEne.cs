@@ -9,8 +9,6 @@
         private float range = 5f;           // rango del raycast
         public float health = 20;
         private Vector3 targetDirection;
-        private Vector3 otherposition;
-        private Rigidbody2D rbg;
 
 
 			void Start () {
@@ -52,24 +50,7 @@
 
 
     }
-
-              void OnCollisionEnter2D(Collision2D other){
-	            	followEne takedamage = other.gameObject.GetComponent<followEne>();
-	            	rbg = other.gameObject.GetComponent<Rigidbody2D>();
-	            	if (rbg != null) {
-		          	if(other.transform.CompareTag("Player")){
-		        		takedamage.health -= Random.Range(3f, 5f);
-
-		        		otherposition = other.transform.position;
-			      		Debug.Log("Tocandose");
-
-		
-			}
-		}
-	}  
-
-       
-  }
+ }
  
 
      
