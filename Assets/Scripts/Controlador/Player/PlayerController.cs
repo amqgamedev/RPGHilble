@@ -46,4 +46,5 @@ public class PlayerController : MonoBehaviour {
 
 		Destroy(bullet, 3.0f);																								// tiempo de vida
 	}
+
 }
