@@ -33,8 +33,8 @@ public class ItemBase{
                 set{itemDescription = value;}
         }
         public int ItemValue{
-                get{return ItemValue;}
-                set{ItemValue = value;}
+                get{return itemValue;}
+                set{itemValue = value;}
         }
         public ItemTypes ItemType{
                 get{return itemType;}

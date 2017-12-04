@@ -40,7 +40,7 @@ public class PlayerBase : MonoBehaviour {
 		get{return playerName;}
 		set{playerName = value;}
 	}
-
+	
 	public int PlayerLevel{
 		get{return playerLevel;}
 		set{playerLevel = value;}

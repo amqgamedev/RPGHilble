@@ -26,7 +26,7 @@ public class SelectedItem : MonoBehaviour {
 				SelectedItemText.text  = "This Slot is Empty"; // si el el objeto es Empty no muestra que el slot es empty
 
 			}else{
-				SelectedItemText.text = playerInventory[System.Int32.Parse(this.gameObject.name)].ItemName + " " + playerInventory[System.Int32.Parse(this.gameObject.name)].ItemDescription;
+				SelectedItemText.text = "Item";
 			// por ejemplo playerInventory[1]
 			// de otro modo nos muestra el nombre del item y su descripcion
 			

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameInfo : MonoBehaviour {
 
-	
+	// de prueba para almacenar los datos el personaje al cargar escena
 	void Awake()
 	{
 		DontDestroyOnLoad(transform.gameObject);

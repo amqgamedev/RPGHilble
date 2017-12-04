@@ -19,13 +19,13 @@ public class Inventory : MonoBehaviour {
 	private int posY;
 	private GameObject itemSlot;
 	private int itemSlotCnt; // contador de slots
-	private List<GameObject> InventorySlots;
+	//private List<GameObject> InventorySlots;
 
-	private List <ItemBase> playerInventory;
+	//private List <ItemBase> playerInventory;
 	// Use this for initialization
 	void Start () {
 		CreateInventorySlotsInWindow();
-		AddItemFromInventory();
+		//AddItemFromInventory();
 	}
 	
 	// Update is called once per frame
@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour {
 	}
 
 	private void CreateInventorySlotsInWindow(){
-		InventorySlots = new List<GameObject>();
+		//InventorySlots = new List<GameObject>();
 		posX = startposX;
 		posY = startposY;
 		for (int i = 0; i < itemSlotCnt; i++) // recorre la cantidad de contador de item slot y crea un slot cada vez que lo recorre
@@ -43,7 +43,7 @@ public class Inventory : MonoBehaviour {
 			itemSlot = (GameObject) Instantiate(ItemSlotPrefab);
 			itemSlot.name = "Empty";
 			itemSlot.GetComponent<Toggle>().group = ItemSlotToggleGroup;
-			InventorySlots.Add(itemSlot);
+			//InventorySlots.Add(itemSlot);
 			itemSlot.transform.SetParent(this.gameObject.transform);
 			itemSlot.GetComponent<RectTransform>().localPosition = new Vector3(posX,posY,0);
 			posX += (int) itemSlot.GetComponent<RectTransform>().rect.width;
@@ -56,7 +56,7 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
-	private void AddItemFromInventory(){ // añade un item al inventario, es necesario que el player tenga el script player base
+	/*private void AddItemFromInventory(){ // añade un item al inventario, es necesario que el player tenga el script player base
 		PlayerBase  basePlayerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBase>();
 		playerInventory = basePlayerScript.returnPlayerInventory();
 		for (int i = 0; i < playerInventory.Count; i++)
@@ -65,5 +65,5 @@ public class Inventory : MonoBehaviour {
 				InventorySlots[i].name = i.ToString(); // nombre del item
 			}
 		}
-	}
+	}*/
 }
