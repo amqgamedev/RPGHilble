@@ -7,8 +7,6 @@ public class Shooter : MonoBehaviour {
 	
 
 	private Vector3 inputDirection;
-	public ShootButt BShoot;
-	
 	[SerializeField]private Rigidbody2D rbg;
 	public GameObject bulletPref;				//Prefab del disparo de rango
 	public Transform bulletSpawn;				//Desde donde va a disparar
@@ -27,14 +25,16 @@ public class Shooter : MonoBehaviour {
 
 		if(Input.GetKeyDown(KeyCode.Space)){					//Tecla la cual va llamar a la funcion fire
 			Fire();
+			
 		}
 			rbg = GetComponent<Rigidbody2D>();
 
 	}
 
 
-	void Fire(){
+	public void Fire(){
 
+		//ShootButt BShoot = new ShootButt();
 		GameObject bullet = Instantiate(bulletPref,bulletSpawn.position, bulletSpawn.rotation) as GameObject;								//	instancia el prefab de bullet
 		bullet.GetComponent<Rigidbody2D>().AddForce(GetComponent<PlayerMotor>().dir.normalized * 5.0f, ForceMode2D.Impulse);				//  le da "movimiento"
 		Debug.Log("Disparando");	

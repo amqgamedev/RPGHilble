@@ -28,7 +28,7 @@
 
 			void FollowP () {
 
-       			targetDirection = (target.position - transform.position).normalized * range;                 // direccion perseguir
+      			targetDirection = (target.position - transform.position).normalized * range;                 // direccion perseguir
             RaycastHit2D hit = Physics2D.Raycast(transform.position, targetDirection, range);           // Vision para que comienze a perseguir
           
             if (hit.collider != null) {
